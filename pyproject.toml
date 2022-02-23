@@ -1,0 +1,42 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry]
+name = "autodonate-rcon-api"
+description = "Simple RCON API for Autodonate"
+version = "0.1.0"
+license = "AGPL3"
+
+authors = []
+
+readme = "README.md"
+
+repository = "https://github.com/fire-squad/autodonate-rcon-api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+poetry = "^1"
+autodonate = "^0.1.1"
+Django = "^4.0.2"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+mypy = "^0.931"
+
+safety = "^1.10"
+
+pytest = "^7.0"
+pytest-cov = "^3.0"
+pytest-randomly = "^3.11"
+pytest-django = "^4.5.2"
+
+sphinx = "^4.4"
+sphinx-autodoc-typehints = "^1.17"
+sphinxcontrib-apidoc = "^0.3"
+furo = "^2022.1.2"
+doc8 = "^0.10"
+m2r2 = "^0.3"
+tomlkit = "^0.10"
+toml = "^0.10.2"
